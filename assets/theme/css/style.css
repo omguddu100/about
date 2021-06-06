@@ -41,7 +41,7 @@ body {
   letter-spacing: 0.3px;
   background: #ffffff;
   overflow-x: hidden;
-  font: 300 13px/22px 'Open Sans', sans-serif;
+  font: 300 13px/22px "Open Sans", sans-serif;
 }
 @media (max-width: 992px) {
   .body-area {
@@ -146,12 +146,12 @@ body.dark-page .content-body {
   background: #f2f2f2;
 }
 .itsme {
- background: #f31616;
-    display: inline-block;
-    font-weight: 700;
-    padding: 2px 10px;
-    color: #FFFFFF;
-    margin-bottom: 2px;
+  background: #f31616;
+  display: inline-block;
+  font-weight: 700;
+  padding: 2px 10px;
+  color: #ffffff;
+  margin-bottom: 2px;
 }
 @keyframes move {
   from {
@@ -409,19 +409,21 @@ body.dark-page .content-body {
 .big-qoute {
   text-align: center;
 }
- 
-
 
 .hit-the-floor {
-      padding-bottom: 10px;
- font-size: 40px !important;
+  padding-bottom: 10px;
+  font-size: 40px !important;
   line-height: 1.7em;
   font-weight: 700;
   margin-bottom: 75px;
   color: #000;
-font-weight: bold;
-font-family: Helvetica;
-text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
+  font-weight: bold;
+  font-family: Helvetica;
+  text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9,
+    0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1),
+    0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2),
+    0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2),
+    0 20px 20px rgba(0, 0, 0, 0.15);
 }
 
 @media (max-width: 500px) {
@@ -527,7 +529,7 @@ h3,
 h4,
 h5 {
   letter-spacing: 0.4px;
-  font-family: 'Sarala', sans-serif;
+  font-family: "Sarala", sans-serif;
 }
 .content-body h2,
 #load-works h2 {
@@ -614,15 +616,15 @@ button:focus {
   display: inline-block;
 }
 .main-header .nav-main .itsme {
-     padding: 0 0 0 30px;
-    float: left;
-    font-weight: 300;
-    border: 0;
-    color: #FFFFFF;
-    padding: 3px 10px;
-    margin-left: 30px;
-    margin-top: 10px;
-    background-color: #f31616;
+  padding: 0 0 0 30px;
+  float: left;
+  font-weight: 300;
+  border: 0;
+  color: #ffffff;
+  padding: 3px 10px;
+  margin-left: 30px;
+  margin-top: 10px;
+  background-color: #f31616;
 }
 .main-header .main-nav {
   margin: 0;
@@ -648,7 +650,7 @@ button:focus {
   padding: 20px 0;
   text-decoration: none;
   color: #000000;
-  font-family: 'Sarala', sans-serif;
+  font-family: "Sarala", sans-serif;
   font-weight: 700;
   font-size: 18px;
   position: relative;
@@ -707,7 +709,7 @@ button:focus {
   display: block;
   color: #000000;
   padding: 3px;
-  font-family: 'Sarala', sans-serif;
+  font-family: "Sarala", sans-serif;
   font-weight: 700;
   font-size: 13px;
 }
@@ -746,8 +748,8 @@ button:focus {
   -webkit-backface-visibility: hidden;
 }
 .main-header .social-share a:hover {
-      background: #f31616;
-    color: #FFFFFF;
+  background: #f31616;
+  color: #ffffff;
 }
 .title-over {
   margin-bottom: 30px;
@@ -853,8 +855,8 @@ button:focus {
   overflow: hidden;
   -webkit-transition-timing-function: ease;
   transition-timing-function: ease;
-  -webkit-transition-duration: .35s;
-  transition-duration: .35s;
+  -webkit-transition-duration: 0.35s;
+  transition-duration: 0.35s;
   -webkit-transition-property: height, visibility;
   transition-property: height, visibility;
 }
@@ -998,7 +1000,7 @@ button:focus {
   display: table-cell;
   vertical-align: middle;
   text-align: center;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 .hero-01 .v-area .v-middle span {
   display: block;
@@ -1034,17 +1036,17 @@ button:focus {
   z-index: 12;
 }
 .hero-01 .thumb-top {
-     border-top: 8px solid #368ABC;
-    border-left: 8px solid #3A7BA2;
-    border-right: 8px solid #f2f2f2;
-    border-bottom: 8px solid #f2f2f2;
-    display: inline-block;
-    color: #000000;
-    background: #ffffff;
-    font-weight: 700;
-    padding: 0;
-    font-size: 14px;
-    position: relative;
+  border-top: 8px solid #368abc;
+  border-left: 8px solid #3a7ba2;
+  border-right: 8px solid #f2f2f2;
+  border-bottom: 8px solid #f2f2f2;
+  display: inline-block;
+  color: #000000;
+  background: #ffffff;
+  font-weight: 700;
+  padding: 0;
+  font-size: 14px;
+  position: relative;
 }
 .hero-01 .thumb-top:before {
   content: "";
@@ -1115,7 +1117,6 @@ button:focus {
     height: 100%;
     background: rgba(0,0,0,0.2);
   }*/
-
 }
 @media (max-width: 992px) {
   .bg-section {
@@ -1166,9 +1167,9 @@ button:focus {
 }
 .resume-list li {
   list-style: none;
-  padding: 20px;
+  padding: 6px;
   padding-left: 30px;
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
   position: relative;
 }
 .resume-list li:before {
@@ -1191,8 +1192,8 @@ button:focus {
   position: absolute;
 }
 .resume-list li .ic-re {
-     margin-right: 5px;
-    color: #F31616;
+  margin-right: 5px;
+  color: #f31616;
 }
 .dark-page .resume-list {
   border-left: 1px solid #000000;
@@ -1231,9 +1232,9 @@ button:focus {
   font-weight: 600;
 }
 .chart .percent:after {
-  content: '%';
+  content: "%";
   margin-left: 0.1em;
-  font-size: .8em;
+  font-size: 0.8em;
 }
 /* 7.e) background section
 ----------------------------------------------------------------------------- */
@@ -1256,7 +1257,7 @@ button:focus {
 .list-filter-galery li.active,
 .list-filter-galery li.active:hover {
   background: #f31616;
- color: #FFF;
+  color: #fff;
 }
 .list-filter-galery li:hover {
   background: #fff;
@@ -1500,8 +1501,8 @@ button:focus {
   background: #ffffff;
 }
 .box-service .ic i {
-      position: relative;
-    color: #fff;
+  position: relative;
+  color: #fff;
 }
 .box-service h3 {
   font-weight: 700;
@@ -1709,7 +1710,7 @@ button:focus {
   border-top: 2px solid;
   display: block;
   max-width: 48px;
-  margin: 15px auto ;
+  margin: 15px auto;
   color: #161616;
 }
 .blog-post-item .post-img {
@@ -1745,7 +1746,7 @@ button:focus {
 }
 .post-date {
   color: #999;
-  font-family: 'Gergoria';
+  font-family: "Gergoria";
 }
 .post-share {
   margin-top: 20px;
@@ -1793,7 +1794,7 @@ button:focus {
   font-size: 12px;
 }
 blockquote {
-  padding: 20px ;
+  padding: 20px;
   margin: 20px 0 20px;
   background: #f2f2f2;
   font-size: 16px;
@@ -1868,7 +1869,7 @@ blockquote {
 .post-comment .desc .date {
   margin-bottom: 5px;
   color: #999;
-  font-family: 'Gergoria';
+  font-family: "Gergoria";
 }
 .post-comment .desc .reply-btn {
   border-top: 1px solid #dddddd;
@@ -1890,7 +1891,7 @@ blockquote {
   border-radius: 0 !important;
 }
 .btnc1 {
-  font-family: 'Sarala', sans-serif;
+  font-family: "Sarala", sans-serif;
   border: 1px solid #ffffff;
   border-radius: 0;
   color: #ffffff;
@@ -1900,7 +1901,7 @@ blockquote {
   transition: color 0.6s ease 0.3s;
 }
 .btnc2 {
-  font-family: 'Sarala', sans-serif;
+  font-family: "Sarala", sans-serif;
   border: 1px solid #ffffff;
   border-radius: 0;
   color: #000000;
@@ -1939,12 +1940,11 @@ blockquote {
 }
 .btnc1:hover,
 .btnc2:hover {
-     
-    color: #fff;
-    -webkit-box-shadow: 0px 0px 25px #f31616;
-    box-shadow: 0px 0px 25px #f31616;
-    
-        border: 1px solid red;
+  color: #fff;
+  -webkit-box-shadow: 0px 0px 25px #f31616;
+  box-shadow: 0px 0px 25px #f31616;
+
+  border: 1px solid red;
 }
 .btnc1:hover:before,
 .btnc2:hover:before {
@@ -1962,7 +1962,7 @@ blockquote {
 }
 .list-progress li .progress-line .line {
   height: 2px;
-     background: #368ABC;
+  background: #368abc;
   display: block;
   width: 0;
 }
@@ -1996,7 +1996,7 @@ blockquote {
 }
 label {
   font-weight: 300;
-  font-family: 'Sarala', sans-serif;
+  font-family: "Sarala", sans-serif;
 }
 label.error {
   color: red;
@@ -2008,7 +2008,7 @@ label.error {
   border-left: 1px solid #dddddd;
 }
 label.error:before {
-  content: '--';
+  content: "--";
   margin-left: -10px;
 }
 label span {
@@ -2054,7 +2054,7 @@ label span {
   position: relative;
   overflow: hidden;
 }
-.btn-file input[type=file] {
+.btn-file input[type="file"] {
   position: absolute;
   top: 0;
   right: 0;
